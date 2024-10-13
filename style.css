@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+    
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+}
+.main .page{
+    height: 100vh;
+    width: 60%;
+    background-color:#b6cff4;
+
+    
+
+}
+.main .page .header{
+    height: 120px;
+    background-color: #ffffff;
+    border-radius:0 0 270px 270px;
+    box-shadow: 0 8px 3px -2px rgb(6, 27, 102);
+     display: flex; 
+     
+    
+   
+}
+.page .header .image > img{
+    height: 110px;
+    width: 230px;
+    margin-left: 50px;
+
+   
+}
+.page .header .heading{
+    margin-top: 20px;
+}
+.page .header .heading h2{
+    font-size: 2.5vw;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    word-spacing: 4px;
+    color: #e18943;
+}
+
+.page .header .heading h1{
+    font-size: 2.5vw;
+    word-spacing: 2px;
+    color: #13344d;
+}
+.main .page .box1{
+    height: 130px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box1 .box1-left{
+    width: 50%;
+    height: 130px;
+  
+}
+.box1 .box1-right{
+    width: 50%;
+    height: 130px;
+    background-color: aliceblue;
+    border-radius: 67px 0 0 67px;
+    
+
+}
+.box1-right > img{
+    height: 120px;
+    width: 150px;
+    margin-left: 30px;
+    
+}
+
+.main .page .box2{
+    height: 130px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.main .page .box2 .box2-left{
+    width: 50%;
+    height: 130px;
+    background-color: aliceblue;
+    border-radius: 0 67px 67px 0;
+    
+}
+.box2-left > img{
+    height: 150px;
+    width: 200px;
+    float: right;
+    margin-left: 30px;
+    margin-bottom: 40px;
+
+}
+.main .page .box2 .box2-right{
+    width: 50%;
+    height: 130px;
+   
+}
+
+.main .page .box3{
+    height: 130px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.main .page .box3 .box3-left{
+    width: 50%;
+    height: 130px;
+    
+}
+.main .page .box3 .box3-right{
+    width: 50%;
+    height: 130px;
+    background-color: #ffffff;
+    border-radius: 67px 0 0 67px;
+    
+}
+.box3-right > img{
+    height: 120px;
+    width: 150px;
+    
+}
+
+.main .page .box4{
+    height: 130px;
+    
+    display: flex;
+}
+.main .page .box4 .box4-left{
+    width: 50%;
+    height: 130px;
+    background-color: aliceblue;
+    border-radius: 0 67px 67px 0;
+    
+}
+.main .page .box4 .box4-right{
+    width: 50%;
+    height: 130px;
+   
+}
+.box4-left > img{
+    height: 120px;
+    width: 150px;
+    float: right;
+    margin-right: 30px;
+   
+
+}
+.box1-left >h1,
+.box2-right > h1,
+.box3-left > h1, 
+.box4-right > h1
+{
+  color: #f5720b;
+  font-size: 40px;
+  padding-left: 50px;
+  padding-top: 20px;
+  
+}
+.box1-left >p,
+.box2-right > p,
+.box3-left > p, 
+.box4-right > p
+{
+    color: #13344d;
+    font-size: 20px; 
+    font-weight: 500;
+    padding-left: 50px;
+}
+
+
+@media (max-width:600px) {
+    
+
+
+}
+
+
